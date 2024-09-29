@@ -1,0 +1,151 @@
+header,
+footer>div div p strong,
+footer>p,
+section > div:first-of-type > div > div,
+#profile,
+#portfolio,
+#design > div:first-of-type input,
+#design ul li figure figcaption,
+#designShow{
+    font-family: "Noto Sans KR", sans-serif; font-style: normal;
+}
+
+footer>div div p,
+footer>div div a,
+footer span,
+section > div h2,
+#design > input{
+    font-family: "Roboto", sans-serif; font-style: normal;
+}
+
+section > div:first-of-type > div > p{
+    font-family: "Open Sans", sans-serif; font-style: normal;
+}
+
+.stopScroll{
+    height: 100%; overflow: hidden;
+}
+
+.greenBar{
+    background-color: #3cebb7;
+}
+#profile,
+#portfolio,
+#design{
+    width: 100%; border-radius: 30px; box-sizing: border-box;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#designShow figure::-webkit-scrollbar{
+    width: 10px; background-color: rgb(100, 111, 124, 0.5);
+}
+#designShow figure::-webkit-scrollbar-thumb{
+    background-color: #415ce0;
+}
+
+@media screen and (min-width:1280px){
+    body{
+        max-width: 2880px; width: 100%; padding: 20px 1.84% 0; box-sizing: border-box;
+        background-color: #f7f7ff;
+    }
+    header,
+    header h1 a,
+    header h1 a img,
+    footer,
+    footer>div,
+    section,
+    section > div:first-of-type > div,
+    section > div:not(:first-of-type),
+    #profile > div:first-of-type div,
+    #profile > div:first-of-type p,
+    #design ul{
+        width: 100%; margin: 0 auto;
+    }
+
+    #profile,
+    #portfolio,
+    #design{
+        border-radius: 30px;
+    }
+
+
+    header{
+        position: relative;
+    }
+    header h1{
+        max-width: 120px; width: 4.32%;
+    }
+    header nav{
+        width: 95.68%;
+        position: absolute; right: 0; top: 50%; transform: translateY(-50%);
+    }
+    header nav ul{
+        width: 100%; text-align: right;
+    }
+    header nav ul li{
+        display: inline-block;
+    }
+    header nav ul li:not(:first-child){
+        margin-left: 1.88%;
+    }
+    header nav ul li a{
+        display: block; font-size: 20px; font-weight: 600; text-align: center; color: #212529;
+        box-sizing: border-box; padding-bottom: 10px;
+    }
+    header nav ul li a:hover{
+        color: #415ce0; transition: 0.5s; padding-bottom: 5px;
+        border-bottom: #3cebb7 5px solid; box-sizing: border-box;
+    }
+
+    footer{
+        padding: 100px 5.41% 25px; box-sizing: border-box; background-color: #415ce0;
+        border-radius: 30px 30px 0 0; color: #ffffff;
+    }
+    footer>div{
+        position: relative;
+    }
+    footer>div div{
+        width: 50%; position: relative;
+        margin-bottom: 80px;
+    }
+    footer>div div h2{
+        max-width: 170px; width: 19.15%;
+    }
+    footer>div div h2 img{
+        width: 100%;
+    }
+    footer>div div p{
+        width: 80.85%; padding-left: 7.89%; box-sizing: border-box;   
+        position: absolute; right: 0; top: 0;
+        font-weight: 300; font-size: 18px; 
+    }
+    footer>div div p strong{
+        font-weight: 600; font-size: 20px; display: block; margin-bottom: 15px;
+    }
+    footer div span{
+        font-weight: 500; font-size: 20px; width: 50%; position: absolute; right: 0;
+        top: 0; text-align: right;
+    }
+    footer div span a{
+        color: #ffffff; margin-left: 3.38%; box-sizing: border-box;
+        padding-bottom: 10px;
+    }
+    footer div span a:hover{
+        transition: 0.5s; padding-bottom: 5px;
+        border-bottom: #3cebb7 5px solid; box-sizing: border-box;
+    }
+    footer>p:first-of-type{
+        font-weight: 700; font-size: 50px; text-align: center; margin: 0 auto; padding-bottom: 125px; box-sizing: border-box; border-bottom: 1px solid #ffffff;
+    }
+    footer>p:last-of-type{
+        font-size: 25px; font-weight: 400; text-align: center; margin: 50px auto 85px;
+    }
+    footer>span,
+    section > div:first-of-type h2{
+        font-weight: 900; font-size: 14.45vw; text-align: center; margin: 0 auto;
+        display: block;
+    }
+    footer>span{
+        opacity: 0.5;
+    }
+    
+}

@@ -1,0 +1,299 @@
+@media screen and (min-width:1280px){
+    section > div:first-of-type{
+        padding: 30px 7.39% 10px; box-sizing: border-box;
+        margin: 0 auto;
+    }
+    section > div:first-of-type > div{
+        position: relative; margin-bottom: 50px;
+    }
+    section > div:first-of-type > div > p{
+        width: 39.11%;
+    }
+    section > div:first-of-type > div > p a{
+        display: block; width: 100%;
+    }
+    
+    section > div:first-of-type > div > p > span{
+        padding: 10px 2.16%; 
+    }
+    section > div:first-of-type > div > p > span,
+    section > div:first-of-type > div > p a span{
+        font-weight: 700; font-size: /*4.51vw*/75px; color: #212529; box-sizing: border-box;
+        display: block; line-height: 100px;
+    }
+    section > div:first-of-type > div > p a span{
+        padding: 0 15px; 
+        display: block;
+        width: 0;
+        white-space: nowrap;
+    }
+    section > div:first-of-type > div > p a:hover span{
+        background-color: #415ce0; box-sizing: border-box;
+        width: 100%; max-width: fit-content; transition: width 0.4s ease-in, color 0.3s ease-in, font-size 0.25s ease-in;
+        color: #ffffff; font-size: 85px;
+    }
+    section > div:first-of-type > div > div{
+        /* width: 20.93%;  */
+        position: absolute; right: 0; top: 0; text-align: right;
+    }
+    section > div:first-of-type > div > div p:first-of-type{
+        font-size: 30px; color: #212529; font-weight: 300; text-align: left; line-height: 40px;
+        margin-bottom: 40px; position: relative;
+    }
+    section > div:first-of-type > div > div p:first-of-type strong{
+        font-weight: 700;
+    }
+    section > div:first-of-type > div > div p:first-of-type .greenBar{
+        height: 15px; width: 90px; display: block; border-radius: 7px;
+        position: absolute; left: -5px; bottom: 0px; z-index: -1;
+    }
+    section > div:first-of-type > div > div p:last-of-type{
+        font-size: 20px; color: #212529; font-weight: 300; text-align: left; line-height: 30px;
+    }
+    section > div:first-of-type h2{
+        color: #415ce0;
+    }
+
+    #profile,
+    #portfolio{
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        height: 95vh; margin: 0 auto 50px; padding: 0 12.61%; box-sizing: border-box;
+        text-align: left; min-height: 800px;
+    }
+    #profile,
+    #design{
+        background-color: #ffffff;
+    }
+    #profile,
+    #profile > div:last-of-type ul:first-of-type li a{
+        color: #212529;
+    }
+    #profile:after,
+    #portfolio:after{
+        display: block; content: ''; clear: both;
+    }
+    #profile > div,
+    #portfolio > div{
+        float: left; display: block;
+    }
+    #profile > div:first-of-type,
+    #portfolio > div:first-of-type{
+        width: 33.25%; 
+    }
+    #profile > div:last-of-type,
+    #portfolio > img{
+        margin-left: 14.46%; width: 52.29%;
+    }
+    #profile > div:first-of-type div{
+        display: block; border-radius: 50%; background-color: #415ce0;
+        overflow: hidden; position: relative;  margin-bottom: 50px; 
+    }
+    #profile > div:first-of-type div:after{
+        content:""; display:block; padding-bottom:100%;
+    }
+    #profile > div:first-of-type div img{
+        position: absolute; top: 55%; left: 50%;  width: 85%; object-fit: contain;
+        transform: translate(-50%, -50%);
+    }
+    #profile > div:first-of-type p{
+        text-align: center;
+    }
+    #profile > div:first-of-type p span{
+        font-size: 1.25vw; font-weight: 400; padding: 3px 3.62%; box-sizing: border-box;
+        display: inline-block; line-height: 28px;
+    }
+    #profile > div:first-of-type p span:first-of-type{
+        border: 2px solid #3cebb7; border-radius: 17px;
+    }
+    #profile > div:first-of-type p span:not(:first-of-type,:nth-of-type(3)){
+        margin-left: 2.17%;
+    }
+    section > div:not(:first-of-type) h2{
+        font-size: 32px; font-weight: 500; line-height: 45px; margin-bottom: 10px; box-sizing: border-box;
+    }
+    section > div:not(:first-of-type) .greenBar{
+        width: 45px; height: 8px; border-radius: 4px; display: block;
+        margin-bottom: 50px;
+    }
+    #profile > div:last-of-type > p{
+        font-size: 25px; font-weight: 700; line-height: 38px;
+        margin-bottom: 40px;
+    }
+    #profile > div:last-of-type ul:first-of-type,
+    #portfolio ul{
+        width: 100%; margin-bottom: 85px;
+    }
+    #profile > div:last-of-type ul:first-of-type li{
+        width: 100%; display: block; margin-bottom: 20px;
+        font-size: 20px; line-height: 32px;
+    }
+    #profile > div:last-of-type ul:first-of-type li strong{
+        font-weight: 700;
+    }
+    #profile > div:last-of-type ul:first-of-type li span,
+    #profile > div:last-of-type ul:first-of-type li a{
+        margin-left: 2.78%; font-weight: 400;
+    }
+    #profile > div:last-of-type ul:last-of-type li{
+        display: inline-block; width: 8.3%; min-width: 40px;
+    }
+    #profile > div:last-of-type ul:last-of-type li:not(:first-of-type){
+        margin-left: 4.15%;
+    }
+    #profile > div:last-of-type ul:last-of-type li img,
+    #portfolio ul,
+    #portfolio ul li img{
+        width: 100%;
+    }
+    #portfolio{
+        background-color: #415ce0; color: #ffffff;
+    }
+    #portfolio h3{
+        font-size: 38px; font-weight: 700; line-height: 56px;
+    }
+    #portfolio h3 span,
+    #portfolio p{
+        font-size: 22px; font-weight: 600; line-height: 34px;
+    }
+    #portfolio h3 span,
+    #portfolio p:last-of-type{
+        margin-bottom: 25px;
+    }
+    #portfolio p:first-of-type{
+        margin-bottom: 50px;
+    }
+    #portfolio ul li{
+        width: 13.05%; display: inline-block; min-width: 40px;
+    }
+    #portfolio ul li:not(:first-of-type){
+        margin-left: 6.52%;
+    }
+    #portfolio a{
+        color: #415ce0; font-weight: 700; font-size: 20px; line-height: 32px;
+        width: 65.02%; background-color: #ffffff; display: block;
+        text-align: center; padding: 12px 0; border-radius: 28px;
+        
+    }
+    #portfolio a:hover{
+        background-color: #3cebb7; transition: 0.2s ease-in;
+    }
+    #portfolio > img{
+        padding-top: 85px; box-sizing: border-box;
+    }
+    
+    #design{
+        margin: 0 auto 50px; padding: 100px 5.405%; box-sizing: border-box;
+        text-align: center; width: 100%; color: #415ce0;
+    }
+    #design .greenBar{
+        margin: 0 auto 50px;
+    }
+    #design > div:first-of-type:first-of-type{
+        margin: 0 auto 50px; text-align: center; width: 100%;
+    }
+    #design > div:first-of-type:first-of-type input{
+        background-color: #ffffff; border: 3px solid #415ce0; text-align: center;
+        font-size: 22px; font-weight: 600; color: #415ce0; line-height: 32px;
+        padding: 5px 2.02%; box-sizing: border-box; border-radius: 25px;
+        cursor: pointer;
+    }
+    #design > div:first-of-type:first-of-type input:not(:first-of-type){
+        margin-left: 1.21%;
+    }
+    #design > div:first-of-type:first-of-type input:hover,
+    #design > div:first-of-type input.active{
+        background-color: #415ce0; color: #ffffff;
+        transition: 0.2s ease-in;
+    }
+    #design .designBox{
+        max-height: 2000px; overflow: hidden;
+    }
+    #design> div:last-of-type.active{
+        max-height: none;
+    }
+    #design ul{
+        padding: 5px 5px; box-sizing: border-box; column-count: 3;
+    }
+    #design ul li{
+        display: none; width: 100%;
+        margin-bottom: 30px;
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        box-sizing: border-box; padding: 20px; border: 3px solid transparent;
+        
+    }
+    #design ul li.active{
+        display: block;
+    }
+    #design ul li:hover{
+        border: 3px solid #3cebb7; box-sizing: border-box; transition: 0.2s ease-out;
+        
+    }
+    #design ul li figure{
+        width: 100%; margin: 0 auto;
+        position: relative; max-height: 800px; overflow: hidden;
+    }
+    #design ul li figure img{
+        margin: 0 auto; height: 100%; width: 100%;
+    }
+    #design ul li figure figcaption{
+        font-weight: 400; font-size: 18px; line-height: 30px; background-color: rgba(33, 37, 41, 0.2);
+        border: 2px solid #ffffff; padding: 0 4.52%; box-sizing: border-box;
+        position: absolute; left: 15px; top: 15px; color: #ffffff;
+        opacity: 0;
+    }
+    #design ul li:hover figure figcaption{
+        opacity: 1; transition: opacity 0.2s ease-out;
+    }
+
+
+
+
+
+
+
+
+
+    #design > input{
+        font-size: 22px; font-weight: 700; color: #415ce0; line-height: 32px;
+        text-align: center; background-color: transparent; border: none; cursor: pointer;
+        display: none; margin: 0 auto;
+    }
+    #design > input.active{
+        display: block; margin-top: 100px;
+    }
+    #design > input:hover{
+        color: #646f7c; transition: 0.2s ease-in;
+    }
+
+    #designShow{
+        width: 100vw; height: 100vh; background-color: rgba(33, 37, 41, 0.2); margin: 0 auto;
+        position: fixed; left: 0; top: 0; z-index: 10000; align-items: center;
+        display: none;
+    }
+    #designShow:hover{
+        cursor: url('../images/close_icon_fill.png'), auto;
+    }
+    #designShow.active{
+        display: flex;
+    }
+    #designShow figure{
+        width: 34.72%; max-width: 1000px; background-color: #ffffff;
+        padding: 50px 2.43%; box-sizing: border-box; text-align: center;
+        margin: 0 auto; max-height: 80%; overflow-y: auto;
+    }
+    #designShow figure:hover{
+        cursor: auto;
+    }
+    #designShow img{
+        width: 100%; margin: 0 auto;
+    }
+    #designShow figure figcaption{
+        font-size: 26px; font-weight: 600; line-height: 38px;
+        color: #415ce0; padding-bottom: 20px; margin-bottom: 30px;
+        box-sizing: border-box; border-bottom: 2px solid #212529; text-align: center;
+    }
+
+}
