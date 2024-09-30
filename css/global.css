@@ -72,44 +72,6 @@ body{
         border-radius: 20px;
     }
 
-    /* #gnbPanel{
-        top: 0;
-        right: 1000px;
-        height: 100%;
-        background-color: #415ce0;
-        position: fixed;
-        z-index: 100000;
-        transition: 0.3s ease-in-out;
-        width: 250px;
-    }
-    #gnbPanel.active{
-        right: 0;
-    }
-
-
-    #gnbPanel input{
-        border: none;
-        background: url('../images/close_icon.png') center / 40px no-repeat #ffffff;
-        width: 40px; height: 40px; cursor: pointer;
-        text-indent: -9999px; position: fixed; top: 15px; right: 15px;
-    }
-    #gnbPanel ul{
-        padding: 0 30px;
-        height: 100%;
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    #gnbPanel ul li:not(:last-child){
-        margin-bottom: 40px;
-    }
-    #gnbPanel ul li a{
-        display: block; font-size: 26px; font-weight: 600; color: #ffffff; line-height: 32px;
-        transition: 0.18s ease-in;
-    } */
-    
-
     header{
         position: relative; 
     }
@@ -117,9 +79,6 @@ body{
         width: 14.53%; max-width: 60px; display: inline-block;
     }
     header nav{
-        /* width: 14.53%; max-width: 60px; background: url('../images/menu_icon.png') center / contain no-repeat;
-        float: right; text-indent: -9999px; */
-        /* display: none; */
         width: fit-content; position: absolute; right: 0; text-align: right; top: 0;
         background: url('../images/menu_icon.png') top right / 45px no-repeat;
         padding-top: 60px; box-sizing: border-box; width: 50%;
@@ -164,9 +123,7 @@ body{
         width: 100%;
     }
     footer>div div p{
-        /* width: 83.68%; padding-left: 4.66%;  */
         box-sizing: border-box;   
-        /* position: absolute; right: 0; top: 0; */
         font-weight: 300; font-size: 16px; line-height: 22px;
         width: 100%; 
     }

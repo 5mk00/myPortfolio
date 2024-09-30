@@ -29,13 +29,9 @@
     }
     section > div:first-of-type > div > p a:hover span{
         background-color: #415ce0; box-sizing: border-box;
-        width: 100%; max-width: fit-content; 
-        /* transition: width 0.4s ease-in, color 0.3s ease-in, font-size 0.25s ease-in; */
-        color: #ffffff; font-size: 50px;
+        width: 100%; max-width: fit-content; color: #ffffff; font-size: 50px;
     }
     section > div:first-of-type > div > div{
-        /* width: 20.93%;  */
-        /* position: absolute; right: 0; top: 0; text-align: right; */
         width: 100%; padding: 0 5px; box-sizing: border-box;
     }
     section > div:first-of-type > div > div p:first-of-type{
@@ -59,11 +55,7 @@
     #profile,
     #portfolio{
         background-color: #ffffff;
-        /* display: flex; */
-        /* align-items: center; justify-content: center; */
         margin: 0 auto 50px; padding: 50px 3.18%; box-sizing: border-box;
-        /* text-align: left;  */
-        /* min-height: 750px; height: 70vh; */
     }
     #profile,
     #design{
@@ -73,17 +65,11 @@
     #profile > div:last-of-type ul:first-of-type li a{
         color: #212529;
     }
-    /* #profile:after,
-    #portfolio:after{
-        display: block; content: ''; clear: both;
-    } */
     #profile > div,
     #portfolio > div{
-        /* float: left;  */
         display: block; margin: 0 auto;
     }
     #profile > div:first-of-type{
-        /* width: 27.28%; */
         width: 100%; margin-bottom: 45px;
     }
     #profile > div:first-of-type div{
@@ -120,7 +106,6 @@
     }
     #profile > div:last-of-type,
     #portfolio > div{
-        /* margin-left: 7.58%;  */
         width: 100%; padding: 0 3.4%; box-sizing: border-box;
     }
     #profile > div:last-of-type > p{
@@ -261,9 +246,6 @@
         position: absolute; left: 10px; top: 10px; color: #ffffff;
         opacity: 1;
     }
-    /* #design ul li:hover figure figcaption{
-        opacity: 1; transition: opacity 0.2s ease-out;
-    } */
 
 
 
@@ -357,7 +339,6 @@
         color: #ffffff; font-size: 70px;
     }
     section > div:first-of-type > div > div{
-        /* width: 20.93%;  */
         position: absolute; right: 0; top: 0; text-align: right;
     }
     section > div:first-of-type > div > div p:first-of-type{
@@ -515,19 +496,19 @@
     #design .greenBar{
         margin: 0 auto 45px;
     }
-    #design > div:first-of-type:first-of-type{
+    #design > div:first-of-type{
         margin: 0 auto 48px; text-align: center; width: 100%;
     }
-    #design > div:first-of-type:first-of-type input{
+    #design > div:first-of-type input{
         background-color: #ffffff; border: 3px solid #415ce0; text-align: center;
         font-size: 20px; font-weight: 600; color: #415ce0; line-height: 30px;
         padding: 4px 2.02%; box-sizing: border-box; border-radius: 25px;
         cursor: pointer;
     }
-    #design > div:first-of-type:first-of-type input:not(:first-of-type){
+    #design > div:first-of-type input:not(:first-of-type){
         margin-left: 1.21%;
     }
-    #design > div:first-of-type:first-of-type input:hover,
+    #design > div:first-of-type input:hover,
     #design > div:first-of-type input.active{
         background-color: #415ce0; color: #ffffff;
         transition: 0.2s ease-in;
@@ -638,7 +619,7 @@
         position: relative; margin-bottom: 50px;
     }
     section > div:first-of-type > div > p{
-        width: /*39.11%*/50%;
+        width: 50%;
     }
     section > div:first-of-type > div > p a{
         display: block; width: 100%;
@@ -649,7 +630,7 @@
     }
     section > div:first-of-type > div > p > span,
     section > div:first-of-type > div > p a span{
-        font-weight: 700; font-size: /*4.51vw*/75px; color: #212529; box-sizing: border-box;
+        font-weight: 700; font-size: 75px; color: #212529; box-sizing: border-box;
         display: block; line-height: 100px;
     }
     section > div:first-of-type > div > p a span{
@@ -664,7 +645,6 @@
         color: #ffffff; font-size: 85px;
     }
     section > div:first-of-type > div > div{
-        /* width: 20.93%;  */
         position: absolute; right: 0; top: 0; text-align: right;
     }
     section > div:first-of-type > div > div p:first-of-type{
@@ -821,19 +801,19 @@
     #design .greenBar{
         margin: 0 auto 50px;
     }
-    #design > div:first-of-type:first-of-type{
+    #design > div:first-of-type{
         margin: 0 auto 50px; text-align: center; width: 100%;
     }
-    #design > div:first-of-type:first-of-type input{
+    #design > div:first-of-type input{
         background-color: #ffffff; border: 3px solid #415ce0; text-align: center;
         font-size: 22px; font-weight: 600; color: #415ce0; line-height: 32px;
         padding: 5px 2.02%; box-sizing: border-box; border-radius: 25px;
         cursor: pointer;
     }
-    #design > div:first-of-type:first-of-type input:not(:first-of-type){
+    #design > div:first-of-type input:not(:first-of-type){
         margin-left: 1.21%;
     }
-    #design > div:first-of-type:first-of-type input:hover,
+    #design > div:first-of-type input:hover,
     #design > div:first-of-type input.active{
         background-color: #415ce0; color: #ffffff;
         transition: 0.2s ease-in;
