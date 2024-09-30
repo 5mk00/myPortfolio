@@ -3,9 +3,14 @@ $(document).ready(function(){
     designShow();
     designCloseCursor('#designShow');
     designNav('#design > div:first-of-type > input');
+    menuActive();
 });
 
-
+function menuActive(){
+    $('header nav').click(function(){
+        $(this).toggleClass('active');
+    });
+}
 
 function designMoreBtn(){
     $('#design > input').click(function(){
