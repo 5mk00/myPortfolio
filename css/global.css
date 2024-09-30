@@ -26,6 +26,20 @@ body{
     -webkit-tap-highlight-color : transparent !important;
 }
 
+header,
+header h1 a,
+header h1 a img,
+footer,
+footer>div,
+section,
+section > div:first-of-type > div,
+section > div:not(:first-of-type),
+#profile > div:first-of-type div,
+#profile > div:first-of-type p,
+#design ul{
+        width: 100%; margin: 0 auto;
+}
+
 .stopScroll{
     height: 100%; overflow: hidden;
 }
@@ -50,19 +64,6 @@ body{
     body{
         max-width: 768px; width: 100%; padding: 15px 4.36%; box-sizing: border-box;
         background-color: #f7f7ff;
-    }
-    header,
-    header h1 a,
-    header h1 a img,
-    footer,
-    footer>div,
-    section,
-    section > div:first-of-type > div,
-    section > div:not(:first-of-type),
-    #profile > div:first-of-type div,
-    #profile > div:first-of-type p,
-    #design ul{
-        width: 100%; margin: 0 auto;
     }
 
     #profile,
@@ -168,19 +169,6 @@ body{
         max-width: 1280px; width: 100%; padding: 20px 1.84% 0; box-sizing: border-box;
         background-color: #f7f7ff;
     }
-    header,
-    header h1 a,
-    header h1 a img,
-    footer,
-    footer>div,
-    section,
-    section > div:first-of-type > div,
-    section > div:not(:first-of-type),
-    #profile > div:first-of-type div,
-    #profile > div:first-of-type p,
-    #design ul{
-        width: 100%; margin: 0 auto;
-    }
 
     #profile,
     #portfolio,
@@ -278,19 +266,6 @@ body{
     body{
         max-width: 2880px; width: 100%; padding: 20px 1.84% 0; box-sizing: border-box;
         background-color: #f7f7ff;
-    }
-    header,
-    header h1 a,
-    header h1 a img,
-    footer,
-    footer>div,
-    section,
-    section > div:first-of-type > div,
-    section > div:not(:first-of-type),
-    #profile > div:first-of-type div,
-    #profile > div:first-of-type p,
-    #design ul{
-        width: 100%; margin: 0 auto;
     }
 
     #profile,
