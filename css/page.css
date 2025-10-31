@@ -427,9 +427,8 @@
         font-size: 23px; font-weight: 700; line-height: 36px;
         margin-bottom: 38px;
     }
-    #profile > div:last-of-type ul:first-of-type,
-    #portfolio ul{
-        width: 100%; margin-bottom: 80px;
+    #profile > div:last-of-type ul:first-of-type{
+        width: 100%; margin-bottom: 45px;
     }
     #profile > div:last-of-type ul:first-of-type li{
         width: 100%; display: block; margin-bottom: 20px;
@@ -476,8 +475,11 @@
     #portfolio p:first-of-type{
         margin-bottom: 45px;
     }
+    #portfolio ul{
+        margin-bottom: 80px;
+    }
     #portfolio ul li{
-        width: 13.05%; display: inline-block; min-width: 40px;
+        width: 13.05%; display: inline-block; min-width: 39.53px;
     }
     #portfolio ul li:not(:first-of-type){
         margin-left: 5.36%;
@@ -738,9 +740,8 @@
         font-size: 25px; font-weight: 700; line-height: 38px;
         margin-bottom: 40px;
     }
-    #profile > div:last-of-type ul:first-of-type,
-    #portfolio ul{
-        width: 100%; margin-bottom: 85px;
+    #profile > div:last-of-type ul:first-of-type{
+        width: 100%; margin-bottom: 50px;
     }
     #profile > div:last-of-type ul:first-of-type li{
         width: 100%; display: block; margin-bottom: 20px;
@@ -783,6 +784,9 @@
     }
     #portfolio p:first-of-type{
         margin-bottom: 50px;
+    }
+    #portfolio ul{
+        margin-bottom: 85px;
     }
     #portfolio ul li{
         width: 13.05%; display: inline-block; min-width: 40px;
